@@ -5,4 +5,85 @@
     /* display: inline-block; */
     padding: 10px 20px;
     border-radius: 10px;
+    margin-bottom: 50px;
+}
+.display-style{
+display:flex;
+   display: flex;
+    justify-content: space-evenly;
+/* align-items: center; */
+margin-top: 50px;
+gap: 10px;
+
+
+}
+
+.deposit-total-div{
+    background-color: aquamarine;
+      color: aliceblue;
+  
+}
+.withdraw-total-div{ 
+      background-color: rgb(126, 209, 247);
+          color: aliceblue;
+         
+            
+}
+.increase-decrease-div{
+      background-color: rgb(245, 134, 186); 
+          color: aliceblue;
+    
+}
+.total-balance-div{
+      background-color: rgb(142, 79, 243);
+        color: aliceblue;
+          
+}
+.style{
+  width: 250px;
+  height: 100px;
+        text-align: center;
+        border-radius: 8px;
+          padding: 10px 10px;
+}
+#input-area{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+}
+#deposit{
+     width: 400px;
+       color: aliceblue;
+background-color: rgb(124, 243, 94);
+border-radius: 8px;
+  padding: 20px;
+}
+#withdraw{
+     width: 400px;
+     color: rgb(252, 240, 255);
+background-color: rgb(173, 95, 247);
+border-radius: 8px;
+  padding: 20px;
+}
+
+h4{
+    display: inline-block;
+}
+
+.input-style{
+    width: 100%;
+border-radius: 8px;
+padding-left:10px ;
+margin-bottom: 10px;
+
+}
+
+.button-style{
+padding: 5px 30px;
+cursor: pointer;
+border: none;
+border-radius: 10px;
+font-weight: 600;
+color: chocolate;
 }
